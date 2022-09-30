@@ -6,6 +6,8 @@ searchInput.addEventListener('input', () => {
     listItem.forEach(list => {
         if (list.textContent.toLowerCase().includes(searchInput.value.toLowerCase())) {
             list.style.display = '';
+            list.style.opacity = '1'
+
         } else {
             list.style.display = "none";
         }

@@ -40,3 +40,21 @@ ul {
     width: 400px;
     max-width: 80%;
 }
+
+ul li {
+    cursor: pointer;
+    background-color: #ffffff94 !important;
+    opacity: 0;
+}
+
+ul li:hover {
+    background-color: #fff !important;
+    color: blue !important;
+}
+
+ul li img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    object-fit: cover;
+}
